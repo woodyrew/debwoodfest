@@ -5,7 +5,7 @@ also: Children
 adult: 2
 children: 0
 layout: ceremony.hbs|party.hbs
-notes: |-
+notes: |
   Notes go here
 
 ---
