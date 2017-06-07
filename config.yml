@@ -1,0 +1,21 @@
+default:
+    site:
+        # Standard Site Configuration
+        url: http://debwoodfest.uk
+        name: DebWood Fest 2017
+        hashtag: '#DebWoodFest2017'
+
+        menu_links:
+            -
+                title: Line-Up
+                link: /line-up
+            -
+                title: Location
+                link: /location
+    page_defaults:
+        -
+            pattern: ["*.{md,html}", "**/*.{md,html}"]
+            defaults:
+                layout: default.hbs
+development:
+    isDev: true

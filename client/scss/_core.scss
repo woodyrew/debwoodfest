@@ -1,0 +1,51 @@
+$shadow: 0 2px 8px rgba(0, 0, 0, .8);
+
+#banner {
+  background-color: #9fc5db;
+  background-image: url('/assets/imgs/whitsand-bay.jpg');
+  background-size: cover;
+  height: 625px;
+}
+
+#main {
+  background-color: white;
+
+  #content em {
+    font-family: cursive;
+  }
+}
+
+#page-title {
+  color: white;
+  font-family: 'Prata', serif;
+  font-size: 92px;
+  margin-top: 254px;
+  text-align: center;
+  text-shadow: $shadow;
+}
+
+#map {
+  height: 500px;
+  max-height: 100vh;
+  width: 100%;
+}
+
+.faces {
+  background-image: url('/assets/imgs/deb-wood.jpg');
+  background-size: cover;
+  border-radius: 1000px;
+  height: 300px;
+  margin: 85px auto 25px;
+  text-indent: -10000px;
+  text-shadow: $shadow;
+  width: 300px;
+}
+
+footer {
+  background-color: #aab0a9;
+
+  .column {
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+  }
+}
