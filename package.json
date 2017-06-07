@@ -33,7 +33,8 @@
     "predev": "npm install --silent --progress=false",
     "dev": "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && npm run browser_sync_reload'",
     "browser_sync": "browser-sync start --server site --browser=$npm_package_config_browser",
-    "browser_sync_reload": "browser-sync reload"
+    "browser_sync_reload": "browser-sync reload",
+    "rnd_string": "./bin/rnd_string"
   },
   "repository": {
     "type": "git",

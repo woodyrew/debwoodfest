@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var get_rnd_string = function get_rnd_string (len) {
+        'use strict';
+    var text = '';
+    var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+    for (var i = 0; i < len; i++ ) {
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+
+    return text;
+};
+
+var number_of_times = process.argv[3] || 1;
+for (var i = 0; i < number_of_times; i++) {
+        console.log('Random String:', get_rnd_string(process.argv[2] || 32));
+}
