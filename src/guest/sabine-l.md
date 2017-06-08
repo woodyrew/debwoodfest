@@ -1,9 +1,9 @@
 ---
-id: rWPni
-name: Alice & Andrew Cole
+id: daQHo
+name: Sabine Lengger & Pete Arber
 also:
 adult: 2
-children:
+children: 0
 layout: ceremony.hbs
 notes: |
   Notes go here

@@ -9,5 +9,3 @@ notes: |
   Notes go here
 
 ---
-
-## This will appear on the page

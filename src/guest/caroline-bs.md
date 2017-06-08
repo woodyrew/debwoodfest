@@ -1,9 +1,9 @@
 ---
-id: rWPni
-name: Alice & Andrew Cole
+id: X3qxe
+name: Caroline Barrie-Smith & Stephen Fisher
 also:
 adult: 2
-children:
+children: 0
 layout: ceremony.hbs
 notes: |
   Notes go here

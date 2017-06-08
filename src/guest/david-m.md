@@ -1,9 +1,9 @@
 ---
-id: rWPni
-name: Alice & Andrew Cole
+id: yciA2
+name: David Malone
 also:
-adult: 2
-children:
+adult: 1
+children: 0
 layout: ceremony.hbs
 notes: |
   Notes go here
