@@ -1,0 +1,52 @@
+{{> header_standard}}
+<div id="banner" class="row expanded">
+  <div class="row">
+    <div class="column">
+      <h1 id="page-title">{{{title}}}</h1>
+      <div class="faces">Deborah &amp; Woody</div>
+    </div>
+  </div>
+</div>
+<div id="main" class="row expanded">
+  <div class="row">
+    <div id="content" class="column">
+      <h2>{{name}}{{#if also}}, {{also}}{{/if}}</h2>
+      <p>
+        We would love you to attend our wedding celebrations.
+      </p>
+      <h3>Saturday 9th September 2017, from 17:00 at Sconner Down</h3>
+      <p>
+        Camping on site with us is encouraged however there are other accomodation options locally where you can stay.
+      </p>
+      <p>
+        The celebrations officially finish at 15:00 on Sunday.
+      </p>
+      {{{contents}}}
+    </div>
+    <div class="column">
+      {{#unless rsvp}}
+      <div class="typeform-widget" data-url="https://woody29.typeform.com/to/Oqko02?adult={{adult}}&children={{children}}&invitee={{invitee}}&a1={{is_ceremony}}" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com/examples/?utm_campaign=Oqko02&amp;utm_source=typeform.com-8602790-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+      {{/unless}}
+    </div>
+  </div>
+  <div id="map"></div>
+  <script>
+  function initMap() {
+    var uluru = {lat: 50.384191, lng: -4.315252};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 15,
+      center: uluru,
+      mapTypeId: 'hybrid'
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHuXdbxu4mxw8qo-PrNW8Dp9--koeQUF4&callback=initMap">
+  </script>
+</div>
+
+{{> footer_standard}}

@@ -9,7 +9,7 @@ rm -rf "${JS_ASSETS}/*" && \
 cp ./node_modules/jquery/dist/jquery.min.js $JS_ASSETS;
 cp ./node_modules/jquery/dist/jquery.min.map $JS_ASSETS;
 cp ./node_modules/motion-ui/dist/motion-ui.min.js $JS_ASSETS;
-cp ./node_modules/foundation-sites/dist/foundation.min.js $JS_ASSETS;
+cp ./node_modules/foundation-sites/dist/js/foundation.min.js $JS_ASSETS;
 cp -r ./client/js/* $JS_ASSETS;
 
 echo "Copying CSS Assets";

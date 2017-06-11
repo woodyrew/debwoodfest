@@ -15,11 +15,14 @@ const yaml_config = require('node-yaml-config');
 
 // local packages
 const css_csum = require('./modules/metalsmith/css_csum');
+const rename_guest_urls = require('./modules/metalsmith/rename_guest_urls');
 
 const handlebars_helpers = {
-    condition : require('./modules/handlebars/condition'),
-    head_title: require('./modules/handlebars/head_title'),
-    moment    : require('./modules/handlebars/moment')
+    condition  : require('./modules/handlebars/condition'),
+    head_title : require('./modules/handlebars/head_title'),
+    invitee    : require('./modules/handlebars/invitee'),
+    is_ceremony: require('./modules/handlebars/is_ceremony'),
+    moment     : require('./modules/handlebars/moment')
 };
 
 
@@ -33,6 +36,7 @@ metalsmith(__dirname)
         site: config.site
     })
     .use(default_values(config.page_defaults))
+    .use(rename_guest_urls)
     .use(css_csum('scss.csum'))
     .use(markdown({
         gfm        : true,
