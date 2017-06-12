@@ -5,6 +5,9 @@ also:
 adult: 2
 children:
 layout: ceremony.hbs
+rsvp:
 notes:
 
 ---
+
+We know you guys are a _long way away_, but would love if you were with us at our wedding. No pressure at all though x

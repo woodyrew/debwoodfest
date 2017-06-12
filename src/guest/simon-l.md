@@ -5,6 +5,9 @@ also:
 adult: 2
 children:
 layout: ceremony.hbs
+rsvp:
 notes:
 
 ---
+
+Hi guys! It's been a while! I'd love if you two could come celebrate with us!

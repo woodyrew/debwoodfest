@@ -4,7 +4,8 @@ name: Bee Woodland
 also:
 adult: 1
 children:
-layout: party.hbs
+layout: ceremony.hbs
+rsvp:
 notes:
 
 ---

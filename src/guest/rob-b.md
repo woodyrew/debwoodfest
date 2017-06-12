@@ -4,7 +4,8 @@ name: Rob Beaton
 also:
 adult: 1
 children:
-layout: ceremony.hbs
+layout: party.hbs
+rsvp:
 notes:
 
 ---

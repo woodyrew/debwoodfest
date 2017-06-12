@@ -5,6 +5,7 @@ also: James and Alexandra
 adult: 2
 children: 2
 layout: ceremony.hbs
-notes: 
+rsvp:
+notes:
 
 ---

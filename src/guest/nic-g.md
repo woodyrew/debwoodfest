@@ -1,10 +1,11 @@
 ---
 id: NpQmi
 name: Nic & Candy Goodricke
-also: Thomas & Eleanor
+also: Thomas and Eleanor
 adult: 2
 children: 2
 layout: ceremony.hbs
+rsvp:
 notes:
 
 ---
