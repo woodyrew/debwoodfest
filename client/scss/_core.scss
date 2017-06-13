@@ -1,5 +1,16 @@
-$shadow: 0 2px 8px rgba(0, 0, 0, .8);
+$shadow: 0 2px 8px rgba(0, 0, 0, .8), 0 2px 8px rgba(0, 0, 0, .8);
 $shadow-heavy: 0 0 2px #000, 0 0 4px #000, 0 0 8px #000;
+
+p,
+ul {
+  font-family: serif;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-style: italic;
+  margin-top: 1.5em;
+}
 
 #banner {
   background-color: #9fc5db;
@@ -12,16 +23,16 @@ $shadow-heavy: 0 0 2px #000, 0 0 4px #000, 0 0 8px #000;
   background-color: white;
 
   #content em {
-    font-family: cursive;
+    font-style: italic;
   }
 }
 
 #page-title {
   color: white;
-  font-family: 'Prata', serif;
+  font-family: serif;
   margin-top: 254px;
   text-align: center;
-  text-shadow: $shadow-heavy;
+  text-shadow: $shadow;
 }
 
 .subheading {
