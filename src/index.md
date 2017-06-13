@@ -7,28 +7,29 @@ title: Deb&shy;Wood Fest 2017
 
 ### Date: Saturday **9th September** 2017
 
-### Location: [**Sconner Down**, Cornwall](#map) &mdash; **PL11 3ES**
+### Location: <span data-magellan><a href="#map">**Sconner Down**, Cornwall (Map)</a></span> &mdash; <span title="Sat-Nav Friendly Postcode">PL11&nbsp;3ES</span>
 
 ---
 
 ## The Venue
-Sconner Down is a fairly basic camp site. It is partially open to the elements and partially enclosed by ever-green trees.
+Sconner Down is a fairly basic campsite. It is partially open to the elements and partially enclosed by ever-green trees.
  
 In September (as with any time of year in the UK) it may well rain. We do have wet-weather contingency plans on the site, but it will still involve dashing about through the rain &mdash; you should definitely prepare to deal with the elements.
 
 ## Recommended Kit List
  
 ### For everyone
-- umbrella
- 
-### For feet
+- Normal wedding attire
+- umbrella *
+- warm clothes *
+- wellies or similar *
 - flats, wedges or block heels
-- wellies or similar if it gets wet
 - stiletto heels are not a good idea!
+
+_* Just in case_
  
 ### For campers
 - tent, sleeping mat & bag.
-- warm clothes
 - torch
 - check out the forecast before packing up &amp; prepare for the rain anyway.
 
@@ -66,7 +67,7 @@ We would like to encourage as many of you as possible to camp with us on site.
 
 Camping is free and there is plenty of room for tents and camper vans, although no hook ups.
 
-Facilities at the campsite are fairly basic - Toilets; showers; huge fire dish; electrical sockets in shower rooms and kitchen areas; open kitchen barn with potable water, kettle, microwave; fridge.
+Facilities at the campsite are fairly basic - Flushable toilets (4); showers (4); electrical sockets in shower rooms and kitchen areas; open kitchen barn with potable water, kettle, microwave; fridge; huge fire dish.
  
 ### Bell Tents
 If you like, we can arrange [Bell Tent hire](https://www.dropbox.com/s/o6r194nbhmebtbx/Hire%20prices%20Wedding%202017.pdf?dl=1): Please let us know and we'll get the ball rolling.

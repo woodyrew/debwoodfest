@@ -22,6 +22,7 @@ const handlebars_helpers = {
     head_title : require('./modules/handlebars/head_title'),
     invitee    : require('./modules/handlebars/invitee'),
     is_ceremony: require('./modules/handlebars/is_ceremony'),
+    md         : require('./modules/handlebars/markdown'),
     moment     : require('./modules/handlebars/moment')
 };
 

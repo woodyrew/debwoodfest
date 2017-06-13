@@ -2,9 +2,9 @@
 <div id="banner" class="row expanded">
   <div class="row">
     <div class="column">
-      <h1 id="page-title">{{name}}{{#if also}}, {{also}}{{/if}}</h1>
-      <p>
-        We would love you to attend our wedding celebrations.
+      <h2 id="page-title">{{name}}{{#if also}}, {{also}}{{/if}}</h2>
+      <p class="subheading">
+        We would love you to attend our wedding party.
       </p>
       <div class="faces">Deborah &amp; Woody</div>
     </div>
@@ -13,22 +13,81 @@
 <div id="main" class="row expanded">
   <div class="row">
     <div id="content" class="column">
-      <h3>Saturday 9th September 2017, from 17:00 at Sconner Down</h3>
+      <h3 class="text-center">
+        <em>Wedding of</em><br>
+        <strong>Andrew Goodricke</strong> &amp; <strong>Deborah Steele</strong>
+      </h3>
+      <h3 class="text-center">
+        Saturday <strong>9th September</strong> 2017, 10:30am<br>
+        <em>at</em> <span data-magellan><a href="#map"><strong>Sconner Down</strong>, Cornwall (Map)</a> &mdash; <span title="Sat-Nav Friendly Postcode">PL11&nbsp;3ES</span></span>.
+      </h3>
+      {{#unless rsvp}}
+      <h2 class="text-center" data-magellan>
+        Please <a href="#rsvp">RSVP</a> by the 20th of June.
+      </h2>
+      {{/unless}}
+
+      <h2>
+        The Idea
+      </h2>
       <p>
-        Camping on site with us is encouraged however there are other accomodation options locally where you can stay.
+        We want to make the most of having friends and family all together in one spot, so <strong>we'd like to invite you to camp with us on the site. Its free!</strong>... so long as you bring your own tent etc.
       </p>
       <p>
-        The celebrations officially finish at 15:00 on Sunday.
+        We hope you can relax, catch up, and enjoy hanging out together.
       </p>
-      {{{contents}}}
+      <p>
+        This is very much a DIY wedding without any staff to help, and without too many limitations regarding noise levels or curfews.
+      </p>
+      <p>
+        Bring-a-bottle!
+      </p>
+      <p>
+        <a href="/">More information can be found on the main page.</a>
+      </p>
+
+      <h2>
+        Itinerary <em>(subject to change)</em>
+      </h2>
+
+
+      <h3>
+        Saturday 9th September
+      </h3>
+      <ul class="itinary">
+        <li>
+          <span>From 4.30pm</span> &mdash; Arrive at the site &amp; pitch up.
+        </li>
+        <li>
+          <span>6pm</span> &mdash; Gather to start the party
+        </li>
+        <li>
+          <span>midnight</span> &mdash; Amps off, acoustic only
+        </li>
+      </ul>
+
+      <h3>
+        Sunday 10th September
+      </h3>
+      <p>
+        <em>Wakey wakey</em> Breakfast on the Fire-pit &amp; Clean up.
+      </p>
+      <p>
+        The celebrations officially finish at 3pm on Sunday.
+      </p>
+
+      {{#if contents}}
+      <h2>A Final Note</h2>
+      {{{md contents}}}
+      {{/if}}
     </div>
     <div class="column">
       {{#unless rsvp}}
-      <div class="typeform-widget" data-url="https://woody29.typeform.com/to/Oqko02?adult={{adult}}&children={{children}}&invitee={{invitee}}&a1={{is_ceremony}}" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com/examples/?utm_campaign=Oqko02&amp;utm_source=typeform.com-8602790-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+      <div id="rsvp" data-magellan-target="rsvp" class="typeform-widget" data-url="https://woody29.typeform.com/to/Oqko02?adult={{adult}}&children={{children}}&invitee={{invitee}}&a1={{is_ceremony}}" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com/examples/?utm_campaign=Oqko02&amp;utm_source=typeform.com-8602790-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
       {{/unless}}
     </div>
   </div>
-  <div id="map"></div>
+  <div id="map" data-magellan-target="map"></div>
   <script>
   function initMap() {
     var uluru = {lat: 50.384191, lng: -4.315252};
