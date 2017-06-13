@@ -12,9 +12,11 @@ title: Deb&shy;Wood Fest 2017
 ---
 
 ## The Venue
-Sconner Down is a fairly basic campsite. It is partially open to the elements and partially enclosed by ever-green trees.
+We’ve chosen a quiet, secluded and wooded spot for the wedding ceremony and party.
+It’s partially enclosed by ever-green trees, and partially exposed. Although we have a wet-weather plan, it will still involve dashing through the rain! 
  
-In September (as with any time of year in the UK) it may well rain. We do have wet-weather contingency plans on the site, but it will still involve dashing about through the rain &mdash; you should definitely prepare to deal with the elements.
+Find details about the camp site below in the accommodation section.
+To help you plan we’ve put together a kit list.
 
 ## Recommended Kit List
  
