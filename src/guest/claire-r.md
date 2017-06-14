@@ -1,8 +1,8 @@
 ---
 id: YHh6C
-name: Claire Rubin
+name: Claire Rubin & guest
 also:
-adult: 1
+adult: 2
 children:
 layout: party.hbs
 rsvp:
