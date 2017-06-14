@@ -5,7 +5,7 @@ also:
 adult: 2
 children:
 layout: party.hbs
-rsvp:
+rsvp: true
 notes:
 
 ---

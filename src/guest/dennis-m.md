@@ -1,11 +1,11 @@
 ---
 id: vCEZX
-name: Dennis & Caroline Martin
+name: Denis & Caroline Martin
 also:
 adult: 2
 children:
 layout: ceremony.hbs
-rsvp: 
+rsvp:
 notes:
 
 ---

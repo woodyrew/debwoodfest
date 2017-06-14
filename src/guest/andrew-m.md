@@ -5,7 +5,7 @@ also: Thomas
 adult: 2
 children: 1
 layout: party.hbs
-rsvp:
+rsvp: true
 notes:
 
 ---
