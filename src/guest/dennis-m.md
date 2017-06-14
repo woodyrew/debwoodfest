@@ -1,6 +1,6 @@
 ---
 id: vCEZX
-name: Denis & Caroline Martin
+name: Denis & Carol Martin
 also:
 adult: 2
 children:
