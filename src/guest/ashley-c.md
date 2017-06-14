@@ -1,6 +1,6 @@
 ---
 id: 5zZ5r
-name: Ashley Cooke
+name: Ashley Cook
 also:
 adult: 1
 children: 0
