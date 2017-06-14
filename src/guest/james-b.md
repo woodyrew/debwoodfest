@@ -5,7 +5,7 @@ also: Belle and Olivia
 adult: 2
 children: 2
 layout: ceremony.hbs
-rsvp:
+rsvp: true
 notes:
 
 ---
