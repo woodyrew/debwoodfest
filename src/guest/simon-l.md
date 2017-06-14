@@ -1,6 +1,6 @@
 ---
 id: U3hP6
-name: Simon Lord & Zoe Carassik-Lord
+name: Simon Lord & Zoë Carassik-Lord
 also:
 adult: 2
 children:

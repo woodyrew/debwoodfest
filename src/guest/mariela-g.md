@@ -1,6 +1,6 @@
 ---
 id: uwu6u
-name: Mariela Gonzalez Ranirez
+name: Mariela González Ramírez
 also:
 adult: 1
 children:
