@@ -1,6 +1,6 @@
 ---
 id: dUIic
-name: Christopher & Analise Martin
+name: Christopher & Annaliese Martin
 also: Rubin and Mabel
 adult: 2
 children: 2
