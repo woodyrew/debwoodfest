@@ -34,7 +34,7 @@
     "browser_sync": "browser-sync start --server site --browser=$npm_package_config_browser",
     "browser_sync_reload": "browser-sync reload",
     "rnd_string": "./bin/rnd_string",
-    "predeploy": "npm run verify",
+    "predeploy": "npm start && npm run verify",
     "deploy": "surge site"
   },
   "repository": {
