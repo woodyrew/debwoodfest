@@ -16,9 +16,8 @@
   "scripts": {
     "prestart": "npm run compile",
     "start": "node .",
-    "poststart": "cp -r ./assets ./site && npm run test",
-    "test": "taper test",
-    "posttest": "npm run lint && npm run verify",
+    "poststart": "cp -r ./assets ./site && npm run verify",
+    "test": "npm run lint",
     "verify": "taper verify",
     "lint": "npm run lint_js && npm run lint_scss",
     "lint_js": "eslint --ignore-pattern node_modules --ignore-pattern site/ --ignore-pattern assets/js/ *.js **/*.js",
@@ -34,7 +33,9 @@
     "dev": "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && npm run browser_sync_reload'",
     "browser_sync": "browser-sync start --server site --browser=$npm_package_config_browser",
     "browser_sync_reload": "browser-sync reload",
-    "rnd_string": "./bin/rnd_string"
+    "rnd_string": "./bin/rnd_string",
+    "predeploy": "npm run verify",
+    "deploy": "surge site"
   },
   "repository": {
     "type": "git",
