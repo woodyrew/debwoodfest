@@ -1,7 +1,7 @@
 ---
 id: HEmkC
 name: Dave Roberts & Sam Jones
-also: Sproglet
+also: Isaac
 adult: 2
 children: 1
 layout: ceremony.hbs
