@@ -5,7 +5,7 @@ also: Isaac
 adult: 2
 children: 1
 layout: ceremony.hbs
-rsvp:
+rsvp: true
 notes:
 
 ---
