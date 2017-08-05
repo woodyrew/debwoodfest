@@ -1,8 +1,8 @@
 ---
-id: KyqkQ
-name: Cos
+id: yXcRM
+name: Lee & Lyndsey
 also:
-adult: 1
+adult: 2
 children:
 layout: party.hbs
 rsvp:
