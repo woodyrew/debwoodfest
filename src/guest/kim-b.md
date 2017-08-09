@@ -10,3 +10,4 @@ notes: |
   Notes go here
 
 ---
+Kim! You are a very important part of our wedding celebrations. We would love if you could join us for the rest of the day!
