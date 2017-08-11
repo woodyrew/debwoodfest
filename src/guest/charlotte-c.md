@@ -4,7 +4,7 @@ name: Charlotte Cree
 also:
 adult: 1
 children:
-layout: party.hbs
+layout: ceremony.hbs
 rsvp: true
 notes:
 
