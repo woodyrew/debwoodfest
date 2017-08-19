@@ -1,10 +1,10 @@
 ---
 id: YHh6C
-name: Clare Rubin & guest
+name: Clare Rubin
 also:
-adult: 2
+adult: 1
 children:
-layout: party.hbs
+layout: ceremony.hbs
 rsvp: true
 notes:
 

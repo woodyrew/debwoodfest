@@ -115,24 +115,5 @@
       {{/unless}}
     </div>
   </div>
-  <div id="map" data-magellan-target="map"></div>
-  <script>
-  function initMap() {
-    var uluru = {lat: 50.384191, lng: -4.315252};
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 15,
-      center: uluru,
-      mapTypeId: 'hybrid'
-    });
-    var marker = new google.maps.Marker({
-      position: uluru,
-      map: map
-    });
-  }
-  </script>
-  <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHuXdbxu4mxw8qo-PrNW8Dp9--koeQUF4&callback=initMap">
-  </script>
-</div>
 
 {{> footer_standard}}
