@@ -4,7 +4,7 @@ name: Christopher & Annaliese Martin
 also: Rubin and Mabel
 adult: 2
 children: 2
-layout: party.hbs
+layout: ceremony.hbs
 rsvp:
 notes:
 
